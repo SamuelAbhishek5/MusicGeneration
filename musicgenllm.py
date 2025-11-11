@@ -170,7 +170,7 @@ def create_music_prompt(mood, confidence, profile):
     # --- *** NEW LLM PROMPT GENERATION *** ---
     try:
         # Use the keywords to generate a creative, natural-language prompt
-        apiKey = "AIzaSyDABScUdCO6X2rUxU52AQuiEvhy9IiyFwY" # API key is automatically provided by the environment
+        apiKey = "" # API key is automatically provided by the environment
         apiUrl = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key={apiKey}"
         
         system_prompt = (   
