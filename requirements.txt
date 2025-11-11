@@ -1,0 +1,12 @@
+flask
+flask-cors
+requests
+numpy
+scipy
+transformers
+torch
+sentencepiece
+# Optional for production WSGI
+gunicorn
+# If you plan to use Uvicorn/ASGI alternatives
+uvicorn
